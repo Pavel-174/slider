@@ -56,8 +56,8 @@ export default class App extends Component {
             )}
           </ul>
           <div className="skills__button-wrapper">
-            <button className="skills__button" onClick={() => this.handleClick("left")}><img className="skills__button-left" src="https://img.icons8.com/ios-filled/512/chevron-left.png"/></button>
-            <button className="skills__button" onClick={() => this.handleClick("right")}><img className="skills__button-right" src="https://img.icons8.com/ios-filled/512/chevron-right.png"/></button>
+            <button className="skills__button" onClick={() => this.handleClick("left")}><img className="skills__button-left" alt="left-button" src="https://img.icons8.com/ios-filled/512/chevron-left.png"/></button>
+            <button className="skills__button" onClick={() => this.handleClick("right")}><img className="skills__button-right" alt="right-button" src="https://img.icons8.com/ios-filled/512/chevron-right.png"/></button>
           </div>
         </div>
       </div>
