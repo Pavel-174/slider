@@ -1,9 +1,10 @@
 .skills {
   margin-top: 40px;
+  min-height: fit-content;
 }
 
 .skills__wrapper {
-  height: 272px;
+  height: 300px;
   width: 993px;
   position: relative;
   overflow: hidden;
